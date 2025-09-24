@@ -1,7 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+
+
 body {
-    color:rgb(121, 0, 158);
-    font-family: 'helvetica neue', sans-serif;
+    color:rgb(194, 170, 197);
+    background: #313339;
+    font-family: 'roboto', sans-serif;
     font-weight: lighter;
     font-size: 20px;
 }
 
+.title{
+    font-size:6rem;
+    font-weight:200}
+
+.script{
+    font-family: 'Great Vibes', cursive;
+    font-size: 9rem;
+}
+
+.author{
+    font-weight: bold;
+}
