@@ -5,21 +5,39 @@
 
 body {
     color:rgb(194, 170, 197);
-    background: #313339;
+    background: linear-gradient(to bottom, #313339, #433232);
     font-family: 'roboto', sans-serif;
     font-weight: lighter;
     font-size: 20px;
 }
 
+ul{
+    font-size: 0.8rem;
+    list-style-type: none;
+}
+
 .title{
-    font-size:6rem;
-    font-weight:200}
+    font-size:7rem;
+    font-weight: 100;
+}
 
 .script{
     font-family: 'Great Vibes', cursive;
-    font-size: 9rem;
+    font-size: 10rem;
 }
 
 .author{
-    font-weight: bold;
+    font-weight:400;
+    font-size: 1.6rem;
+    color:rgb(218,134,102);
+}
+
+.dek{
+    font-size: 1.6rem;
+}
+
+blockquote{
+    font-style: italic;
+    font-weight:400;
+    
 }
