@@ -8,7 +8,7 @@ body {
     background: linear-gradient(to bottom, #313339, #433232);
     font-family: 'roboto', sans-serif;
     font-weight: lighter;
-    font-size: 20px;
+    font-size: 1.2rem;
 }
 
 ul{
@@ -36,8 +36,24 @@ ul{
     font-size: 1.6rem;
 }
 
-blockquote{
-    font-style: italic;
+blockquote, h2 {
     font-weight:400;
+    font-size: 1.2rem;
     
 }
+
+
+.personal{
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.9rem;
+
+}
+
+.opinion {
+    background-color: #C2AAC5;
+    color: #3E3335;
+}
+
+
+
+
