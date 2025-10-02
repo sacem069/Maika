@@ -42,28 +42,39 @@ section:nth-child(1) {
 section:nth-child(2) {
      background-color: #C2AAC5;
      color: #3E3335;
-     /* margin: 0;  */
-     padding: 8rem;}
+     padding: 4rem;
+     border-block-start: solid #EC7040 2rem;
+     border-block-end: solid #3E3335 2rem;}
 
 
 .title{
+    position: relative;
+    padding: 10rem;
+    place-items: center;
+    margin: 0 auto;
+    display: grid;
+
+    
+}
+
+.block {
     font-family: 'Rubik Glitch', cursive;
     font-size: 10rem;
     font-weight: 100;
     line-height: 1;
-    padding: 10rem;
-    margin-top: -2rem;
-    
+    text-align: left;
+    margin: 0;
 }
 
 .script{
     font-family: 'Great Vibes', cursive;
-    font-size: 12rem;
-    color: rgb(218, 134, 102);
+    font-size: 13rem;
+    color: #EC7040;
+    position: absolute;
     display: inline-block;
-    margin-left: -5rem;
-    margin-top: -3rem;
-    vertical-align: middle;
+    margin-left: 15rem;
+    margin-top: 9rem;
+    
 
 }
 
@@ -77,7 +88,7 @@ section:nth-child(2) {
     padding: 0.5rem 2rem;
 
     margin: 1rem auto;        
-    margin-top: -4rem;      
+    margin-top: -5rem;      
     display: block;                 
     text-align: center;            
     max-width: max-content;
@@ -87,29 +98,34 @@ section:nth-child(2) {
 blockquote {
     font-weight: 400;
     font-size: 1.2rem;
-    color: rgb(218, 134, 102);
+    color: #EC7040;
     text-align: center;
-     max-width: 40rem;   
-    width: 90%;        
+     max-width: 50rem;   
     margin: 3rem auto;  
+    margin-top: 9rem;
     line-height: 1.6;
+    margin-bottom: 5rem;
 }
 
 
 
 article {
   font-weight: 200;
-  max-width: 50rem;      
+  max-width: 45rem;      
   margin: 0 auto;        
   text-align: center;   
   padding: 0 1.5rem;   
+  padding-bottom: 5rem;
 }
 
 article p {
   margin: 1.2rem 0;
   line-height: 1.6;
   margin-top: 2rem;
+  max-width: 45rem;
+  hyphens: auto;
 }
+
 
 
 .strip {
@@ -118,26 +134,51 @@ article p {
     font-size: 1.2rem;
     color: #3E3335;
     text-align: center;
-    padding: 20rem;
-    /* max-width: 800px; */
-    /* margin: 0 auto; */
-    line-height: 1.6;
     margin: 0 auto;
+    line-height: 1.6;
+    padding-bottom: 5rem;
+    /* max-width: 45rem; */
+
 }
 
-.personal{
-    font-family: 'Great Vibes', cursive;
-    font-size: 5rem;
-
+.strip p {
+    font-weight: 200;
+    inline-size: 45rem;
+    margin: 1.2rem 0;
+     margin: 0 auto;
+   
+    line-height: 1.6;
+    margin-top: 2rem;
+    max-width: 45rem;
+     width: 100%;
+     hyphens: auto;
 }
 
 h2{
-    font-family: 'Rubik Glitch', cursive;
-    font-size: 3.5rem;
-    margin: 0 auto;
+    text-align: center;
+    font-size: 4rem;
+    line-height: 0.8;
+    margin-bottom: 2rem;
+     padding: 4rem;
+     margin-top: 3rem;
+    /* inline-size: 3rem;  */
 }
 
+.personal{
+    display: block;
+    font-family: 'Great Vibes', cursive;
+    font-size: 6rem;
+    margin-bottom: 0.5rem;
 
+}
+
+.op{
+     font-family: 'Rubik Glitch', cursive;
+     font-size: 4rem;
+     display: block;
+
+
+}
 
 
 
@@ -147,12 +188,12 @@ h2{
 }
 
 .link:hover {
-    color: rgb(218,134,102);
+    color: #EC7040;
 }
 
 .rub{
     font-family: 'rubik glitch', cursive;
-    color: rgb(218,134,102);
+    color: #EC7040;
 
 }
 
